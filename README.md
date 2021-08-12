@@ -2,11 +2,13 @@ Creational patterns provide approaches to object instantiation. Where you place 
 1. Abstract Factory Pattern
 2. Builder Pattern
 3. Factory Method Pattern
+4. Singleton Pattern
 
 Structural patterns provide approaches for combining classes and objects to form larger structures. 
 Deciding whether to use inheritance or composition affects how flexible and adaptable your software is;
 
 Behavioural patterns provide approaches for handling communication between objects.
+1. Obersver Pattern
 
 Prefer object composition over inheritance. Where a class is related to another in some way, you should distinguish between "is a" (or "is a type of") and "has a" relationships. 
 In the IVehicle and IEngine hierarchies described earlier, it is true to say that AbstractCar "is a" IVehicle, and that Saloon "is a" AbstractCar. 
